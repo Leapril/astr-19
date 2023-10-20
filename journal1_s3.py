@@ -4,10 +4,10 @@
 #Use an if statement that executes if the result is larger than 27 and prints “YAY!”.
 def f(x):
 
-	n = x**3+8
-	if n > 27:
-		print("YAY!")
-	else:
+	n = x**3+8 #prompted expression
+	if n > 27: #if n is greater than 27
+		print("YAY!") #prints out prompted phrase
+	else: #else returns the the value
 		return n
 
 def main():
